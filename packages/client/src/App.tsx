@@ -16,7 +16,7 @@ function App() {
     <div className="bg-gray-300">
       <h1 className="font-bold">Message from API:</h1>
       <p className="text-red-500 p-4 text-2xl">{message}</p>
-      <Button className="mt-4">Click Me</Button>
+      <Button className="mt-4">Click Me!</Button>
     </div>
   );
 }
