@@ -12,9 +12,9 @@ function App() {
   }, [])
 
   return (
-    <div className="App">
-      <h1>Message from API:</h1>
-      <p>{message}</p>
+    <div className="bg-gray-300">
+      <h1 className='font-bold'>Message from API:</h1>
+      <p className='text-red-500 p-4 text-2xl'>{message}</p>
     </div>
   )
 }
